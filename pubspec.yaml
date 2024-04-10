@@ -1,0 +1,25 @@
+name: expense_zx
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+
+dependencies:
+  convex_bottom_bar: ^3.2.0
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  get: 4.6.6
+  google_fonts: 6.1.0
+  syncfusion_flutter_charts: ^20.2.40
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
